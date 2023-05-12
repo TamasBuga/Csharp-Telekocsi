@@ -133,7 +133,7 @@ namespace ConsoleApp1
                     string end = autok.ElementAt(j)[1];
                     int place = int.Parse(autok.ElementAt(i)[4]);
 
-                    if(indulo == start && end == cel && place > szemelyek)
+                    if(indulo == start && end == cel && place >= szemelyek)
                     {
                         talalat = true;
                         Console.WriteLine("{0} => {1} ", igenyek.ElementAt(i)[0], autok.ElementAt(j)[2]);
